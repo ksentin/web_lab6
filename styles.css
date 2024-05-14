@@ -1,0 +1,137 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row {
+    background-color: #f0f0f0;
+    border: 1px solid #0d0d0d;
+    padding: 10px;
+    height: fit-content;
+}
+
+.task1 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+#swapButton, #doubleButton, #input1, #input2{
+    margin-left: 10px;
+    height: 20px;
+    width: 150px;
+    border-color: #0d0d0d;
+}
+
+button {
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #83a6ff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1f1969;
+}
+
+button:active {
+    background-color: #1f1969;
+}
+
+.task2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.buttons2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed black;
+    margin-bottom: 20px;
+}
+
+.task3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: auto;
+}
+
+h2, button {
+    margin-left: 10px;
+}
+
+#task9 {
+    transition: background-color 0.3s ease;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+#boxes {
+    width: 300px;
+    height: 1000px;
+    position: relative;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    position: absolute;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 250px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; 
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: dodgerblue;
+    box-shadow: 0 0 5px dodgerblue;
+}
